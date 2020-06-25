@@ -1,0 +1,16 @@
+body {
+	padding-top: 54px;
+}
+
+.gray-background {
+    background-color: #efefef !important;
+}
+
+.white-background {
+    background-color: #fff !important;
+}
+
+.gray-text {
+    color: #808080a1 !important;
+}
+

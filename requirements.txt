@@ -1,0 +1,5 @@
+pycryptodome
+Flask
+flask_cors
+requests
+
