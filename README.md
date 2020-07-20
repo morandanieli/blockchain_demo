@@ -6,7 +6,7 @@ Understanding this code throughly is a great way to learn blockchain under the h
 
 The code was written as part of the highly recommended Udemy course [Build a Blockchain & Cryptocurrency using Python](https://www.udemy.com/course/build-a-blockchain-cryptocurrency-using-python/). The course explains the different parts of the code step-by-step.
 
-See this application in action by watching the (demonstration video)[https://drive.google.com/file/d/1-PirtjhYoOIUU1Nb88L66D1twXZ5Ka1e/view?usp=sharing].
+See this application in action by watching the [demonstration video](https://drive.google.com/file/d/1-PirtjhYoOIUU1Nb88L66D1twXZ5Ka1e/view?usp=sharing).
 
 ## Running the Application
 ### Prerequisites
@@ -20,6 +20,6 @@ In order to run this code, apply the following steps:
 3. `pipenv install -r requirements.txt`
 4. `pipenv shell`
 5. Start Blockchain Frontend: `python3 blockchain/blockchain.py`
-6. Open browser at (http://localhost:5001/)[http://localhost:5001/].
+6. Open browser at [http://localhost:5001/](http://localhost:5001/).
 7. Start Blockchain Client: `python3 blockchain_client/blockchain_client.py`
-8. Open browser at (http://localhost:5001/)[http://localhost:8081/].
+8. Open browser at [http://localhost:5001/](http://localhost:8081/).
