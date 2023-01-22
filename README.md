@@ -1,5 +1,4 @@
-# Blockchain Demo
-## About This Project
+# A Flask application which implements all the required phases in order to build a Blockchain application
 Blockchain Demo is a Flask application which implements all the required phases in order to build a Blockchain application. The application generates RSA keys, preforms transaction between multiple nodes and add them to the blockchain.
 
 Understanding this code throughly is a great way to learn blockchain under the hood. 
