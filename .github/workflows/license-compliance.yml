@@ -1,0 +1,29 @@
+name: Open-Source License Compliance
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  license-scan:
+    name: Permissive License & Anti-Copyleft Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Trivy License Compliance Scan
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          scanners: 'license'
+          severity: 'CRITICAL,HIGH'
+          exit-code: '1'
+          format: 'table'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
